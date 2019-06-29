@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ark-fishing-script.org/sitemap.xml

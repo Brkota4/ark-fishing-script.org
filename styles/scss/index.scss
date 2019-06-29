@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+}
+.header {
+  box-shadow: 1px 1px 1px 1px #45454533;
+  background-color: white;
+
+}
+
+.main {
+  height: 70%;
+
+  .content {
+    padding-top: 3em;
+    .title {
+      padding-bottom: 2rem;
+      font-family: 'Roboto', sans-serif;
+    }
+    .text {
+      font-family: 'Roboto', sans-serif;
+    }
+    .features {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  .actions {
+    ul {
+      li {
+        a {
+          padding: 2em;
+          width: 290px;
+          margin: 1em;
+          text-align: left;
+          font-size: 16px;
+          font-weight: 600;
+
+          div {
+            float: left;
+            padding-top: 3px;
+            padding-left: 5px;
+          }
+          .fab {
+            font-size: 2em;
+            float: left;
+          }
+
+          // colour schemes for social icons.
+          .github {
+            color: black;
+          }
+          .discord {
+            color: #7289DA;
+          }
+          .paypal {
+            color: #2997D8;
+          }
+
+          &:hover {
+            i {
+              transform: rotate(360deg);
+              transition: 1s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  border-top: 1px solid #80808047;
+  padding: 1em;
+  background-color: white;
+
+  .watermark {
+    font-size: 12px;
+  }
+}
